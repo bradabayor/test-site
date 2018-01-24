@@ -3,7 +3,7 @@ myHeading.textContent = 'Hello World';
 
 var myImage = document.querySelector('img');
 
-myImage.onClick = function() {
+myImage.onclick = function() {
 	var mySrc = myImage.getAttribute('src');
 	if (mySrc === 'images/firefox-logo.jpg') {
 		myImage.setAttribute ('src', 'images/chrome-logo.png');
